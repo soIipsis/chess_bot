@@ -116,7 +116,7 @@ def prompt_questions(questions: list, object=None, question_names: list = []):
 class DateValidator(questionary.Validator):
 
     def validate(self, document: Document) -> None:
-        from templates.chess_bot.utils.date_utils import parse_date
+        from templates.template.utils.date_utils import parse_date
 
         try:
             parse_date(document.text)
@@ -148,7 +148,7 @@ class TimeValidator(questionary.Validator):
         super().__init__()
 
     def validate(self, document: Document) -> None:
-        from templates.chess_bot.utils.date_utils import parse_time
+        from templates.template.utils.date_utils import parse_time
 
         try:
             parse_time(document.text)
@@ -164,7 +164,7 @@ class TimeRangeValidator(questionary.Validator):
         super().__init__()
 
     def validate(self, document: Document) -> None:
-        from templates.chess_bot.utils.date_utils import parse_time_range
+        from templates.template.utils.date_utils import parse_time_range
 
         try:
             parse_time_range(document.text)

@@ -1,11 +1,11 @@
 from argparse import _SubParsersAction, ArgumentParser
 import argparse
 from datetime import datetime
-from templates.chess_bot.utils.dictionary_operations import safe_pop
+from templates.template.utils.dictionary_operations import safe_pop
 
-from templates.chess_bot.utils.path_operations import is_valid_path, is_valid_dir
-from templates.chess_bot.utils.date_utils import get_current_date, parse_date
-from templates.chess_bot.utils.str_utils import str_to_bool
+from templates.template.utils.path_operations import is_valid_path, is_valid_dir
+from templates.template.utils.date_utils import get_current_date, parse_date
+from templates.template.utils.str_utils import str_to_bool
 
 
 class Argument:
