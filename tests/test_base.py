@@ -6,7 +6,7 @@ import inspect
 parentdir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 os.sys.path.insert(0, parentdir)
 
-# from templates.template.utils.sqlite import create_connection, close_connection, create_table, delete_items
+# from chess_bots.chess_bot.utils.sqlite import create_connection, close_connection, create_table, delete_items
 from pprint import PrettyPrinter
 
 from utils.sqlite_connection import reset_db, delete_db, create_db

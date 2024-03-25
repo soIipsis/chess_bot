@@ -1,3 +1,3 @@
 import os
-from templates.template.utils.random import *
-from templates.template.utils.sqlite import *
+from chess_bots.chess_bot.utils.random import *
+from chess_bots.chess_bot.utils.sqlite import *

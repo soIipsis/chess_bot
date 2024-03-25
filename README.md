@@ -1,1 +1,1 @@
-# template
+# chess_bot
